@@ -34,7 +34,7 @@
 					>
 						<li>
 							<!-- TODO enlever hover du boutton contact -->
-							<Link
+							<a
 								href="/contact"
 								class="
 									py-1
@@ -52,7 +52,7 @@
 									focus:ring-2
 									hover:text-black
 								"
-								>Contact</Link
+								>Contact</a
 							>
 						</li>
 					</ul>
