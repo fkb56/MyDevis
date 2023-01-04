@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
 		$this->call(CivilitySeeder::class);
 		$this->call(MeasureUnitSeeder::class);
 		Product::factory(30)->create();
-		Client::factory(30)->create();
+		Client::factory(10)->create();
 		User::factory(1)->create();
 	}
 }
