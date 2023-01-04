@@ -35,7 +35,7 @@
 						px-4
 					"
 				>
-					JSLS Peinture
+					JSLS Peintures
 				</div>
 			</div>
 		</div>
