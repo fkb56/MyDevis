@@ -38,7 +38,7 @@ Route::get('/contact', function() {
 			->get()
 	]);
 })->name('contact');
-Route::post('/contact', [MessageController::class, 'sendMessage'])->name('contact');
+//Route::post('/contact', [MessageController::class, 'sendMessage'])->name('contact');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function() {
 	return Inertia::render('Dashboard', [
