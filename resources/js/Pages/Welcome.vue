@@ -35,7 +35,7 @@
 						px-4
 					"
 				>
-					JSLS Peintures
+					JSLS Peinture
 				</div>
 			</div>
 		</div>
@@ -83,7 +83,6 @@ import Nav from "@/Layouts/Nav";
 import Footer from "@/Layouts/Footer";
 import Prestation from "@/Pages/Prestation";
 import Modal from "@/Jetstream/DialogModal";
-import { createInertiaApp } from "@inertiajs/inertia-vue3";
 
 export default {
 	components: {

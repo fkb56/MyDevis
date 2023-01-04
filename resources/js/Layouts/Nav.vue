@@ -34,7 +34,7 @@
 					>
 						<li>
 							<!-- TODO enlever hover du boutton contact -->
-							<inertia-link
+							<Link
 								href="/contact"
 								class="
 									py-1
@@ -52,12 +52,12 @@
 									focus:ring-2
 									hover:text-black
 								"
-								>Contact</inertia-link
+								>Contact</Link
 							>
 						</li>
 					</ul>
 				</nav>
-				<inertia-link
+				<Link
 					href="/"
 					class="
 						justify-center
@@ -98,18 +98,23 @@
 							JSLS Peinture
 						</h2>
 					</div>
-				</inertia-link>
-				<inertia-link :href="route('login')">
+				</Link>
+				<Link :href="route('login')">
 					<i class="far fa-user"></i>
-				</inertia-link>
+				</Link>
 			</div>
 		</div>
 	</div>
 </template>
 
 <script>
+import { Link } from "@inertiajs/inertia-vue3";
+
 export default {
 	name: "Nav",
+	components: {
+		Link
+	},
 	props: {},
 	computed: {},
 	methods: {},
