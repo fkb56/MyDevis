@@ -25,7 +25,7 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function() {
-	return Inertia::render('Welcome', [
+	return Inertia::render('Contact', [
 		'canLogin' => Route::has('login'),
 		'user' => DB::table('users')->select('name_enterprise', 'street_number', 'street', 'post_code', 'city', 'phone')->get()
 	]);
