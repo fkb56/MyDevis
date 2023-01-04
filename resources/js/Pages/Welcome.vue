@@ -1,5 +1,5 @@
 <template>
-	<Meta :title="'Accueil'"></Meta>
+<!--	<Meta :title="'Accueil'"></Meta>-->
 	<Nav class="z-50 top-0" />
 	<div>
 		<div class="relative">
